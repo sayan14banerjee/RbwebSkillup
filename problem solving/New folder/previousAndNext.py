@@ -1,0 +1,5 @@
+n= int(input())
+pe = str(n-1)
+ne = str(n+1)
+print('The next number for the number ',n, 'is ',ne + '.') 
+print('The previous number for the number ',n, 'is ',pe + '.')
