@@ -1,0 +1,41 @@
+{
+
+
+    "customer_information":
+    {
+        "1234":{"name":"sk","balance":100000},
+        "1235":{"name":"pushpita","balance":25000},
+        "1231":{"name":"meghashree","balance":1000},
+        "1236":{"name":"sanchari","balance":25600},
+        "1237":{"name":"uma","balance":3000},
+        "1238":{"name":"subhadip","balance":2500},
+        "1239":{"name":"rahul","balance":1000},
+        "1068":{"name":"roy","balance":5000}
+
+    },
+
+    "Transaction":
+    {
+        "TR101":{"from":1234,"to":9810,"amt":5000},
+        "TR102":{"from":9810,"to":1234,"amt":100000},
+        "TR103":{"from":1068,"to":9810,"amt":256000},
+        "TR104":{"from":9810,"to":1234,"amt":523000},
+        "TR105":{"from":1234,"to":1068,"amt":5000},
+        "TR106":{"from":9810,"to":1234,"amt":52000},
+        "TR107":{"from":1234,"to":9810,"amt":36500},
+        "TR108":{"from":1068,"to":1234,"amt":52000},
+        "TR110":{"from":1234,"to":9810,"amt":560000},
+        "TR111":{"from":9810,"to":1234,"amt":15200},
+        "TR112":{"from":1234,"to":1231,"amt":1250},
+        "TR113":{"from":9810,"to":1234,"amt":36520}
+        
+        
+    }
+
+
+
+
+
+
+
+}
