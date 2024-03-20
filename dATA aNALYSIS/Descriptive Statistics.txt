@@ -1,0 +1,53 @@
+**Descriptive Statistics:**
+
+* **Mean:** Average value
+* **Median:** Middle value
+* **Mode:** Most occurring value
+* **Range:** Difference between maximum and minimum values
+* **Standard deviation:** Measure of variability from the mean
+* **Variance:** Square of the standard deviation
+
+**Inferential Statistics (Hypothesis Testing):**
+
+* **Null hypothesis:** Statement that there is no difference or relationship between two variables.
+* **Alternative hypothesis:** Statement that there is a difference or relationship.
+* **Significance level (alpha):** Probability of rejecting the null hypothesis when it is true (typically 0.05).
+* **P-value:** Probability of observing the sample results if the null hypothesis is true.
+* **Type I error (false positive):** Rejecting the null hypothesis when it is true.
+* **Type II error (false negative):** Failing to reject the null hypothesis when it is false.
+**Distribution **
+* **Binolmial Distribution 
+** Poissonal Distribution 
+**Correlation:**
+
+* **Pearson correlation coefficient (r):** Measures the strength and direction of the linear relationship between two variables.
+
+**Regression Analysis:**
+
+* **Simple linear regression:** Models the relationship between a dependent variable and a single independent variable.
+* **Multiple regression:** Models the relationship between a dependent variable and multiple independent variables.
+
+**Time Series Analysis:**
+
+* **Autocorrelation:** Correlation between values in a time series at different points in time.
+* **Moving average:** Smoothes a time series by averaging over a specified window.
+* **Exponential smoothing:** Uses past values to forecast future values with a declining weight assigned to older data.
+
+**Machine Learning:**
+
+* **Supervised learning:** Algorithms that learn from labeled data and make predictions.
+* **Unsupervised learning:** Algorithms that learn patterns and structures from unlabeled data.
+* **Common algorithms:** Linear regression, logistic regression, decision trees, support vector machines
+
+**Data Visualization:**
+
+* **Bar charts:** Display categorical data as bars.
+* **Line charts:** Plot data over time or other continuous variables.
+* **Scatter plots:** Show the relationship between two continuous variables.
+* **Histograms:** Visualize the distribution of a continuous variable.
+
+**Data Management and Cleaning:**
+
+* **Data cleaning:** Removing errors, inconsistencies, and outliers.
+* **Data imputation:** Filling in missing values.
+* **Data transformation:** Converting data to a different format or scale.

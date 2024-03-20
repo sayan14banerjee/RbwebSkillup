@@ -1,0 +1,16 @@
+{
+    "expense_info": 
+        {
+            "1234": {"category": "food","name": "biscuit","date": "2023-11-15","amt": 10},
+            "1235": {"category": "EMI","name": "bajaj finance","date": "2023-09-25","amt": 8000},
+            "1236": {"category": "medicine","name": "golbi 300","date": "2023-05-28","amt": 900},
+            "1237": {"category": "home appliance","name": "tv","date": "2020-03-24","amt": 30000},
+            "1238": {"category": "furniture","name": "wooden sculpture","date": "2019-07-10","amt": 15000},
+            "1239": {"category": "electronics","name": "home theatre","date": "2019-10-14","amt": 8000},
+            "1240": {"category": "travel","name": "ancient visit","date": "2016-11-07","amt": 20000},
+            "1241": {"category": "electronics","name": "smartphone","date": "2020-05-10","amt": 16000},
+            "1242": {"category": "pet","name": "rotweiler puppy","date": "2022-08-20","amt": 25000},
+            "1243": {"category": "travel","name": "toor","date": "2023-04-15","amt": 22000}
+
+        }
+}
