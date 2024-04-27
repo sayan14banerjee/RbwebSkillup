@@ -16,6 +16,7 @@ class Customer:#Class for user details
          self._bal = balance
     def check_balance(self):
          print(f"balance: {self._bal}")
+
 class Account (Customer): #Inheriting from class customer
         def __init__(self, acc_type, name, address, age, bal, accno):
             super().__init__(name, address, age, bal, accno)
@@ -57,7 +58,7 @@ class Deposit(Customer):
               print(f"Amount Rs.{amount} is Credit")
               super().set_balance(amount)
               print(f"balance: {super().get_balance()} ")
-      
+balance=int(input("Enter your current balance: "))     
 def main():
        while(True):
             try:

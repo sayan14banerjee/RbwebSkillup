@@ -4,18 +4,18 @@ class Customer:#Class for user details
         self.name=name
         self.age = age
         self.address = address
-        self.bal = bal
+        self._bal = bal
         self.accno= accno
     def info(self):
         print(f"{self.name} is our customer and his age is {self.age}. His address is {self.address}")
     def acc(self):
                print(f"account no {self.accno}")
-    def balance(self): 
-              print(f" His balance is {self.bal}")
-    def balinc(self,amount):
-         self.bal += amount
-    def baldec(self,amount):
-         self.bal -= amount
+    def get_balance(self):
+         return self._bal
+    def set_balance(self, balance):
+         self._bal = balance
+    def check_balance(self):
+         print(f"balance: {self._bal}")
 class Account (Customer): #Inheriting from class customer
         def __init__(self, acc_type, name, address, age, bal, accno):
             super().__init__(name, address, age, bal, accno)
@@ -23,7 +23,7 @@ class Account (Customer): #Inheriting from class customer
         def dtl(self):
               print(f"Account type: {self.acc_type}")
               super().acc()
-              super().balance()
+              super().get_balance()
 class Bank:#class for bank details
     def __init__(self, bname, brname, ifscCode, address) :
         self.bname = bname
@@ -40,22 +40,23 @@ class Transfer(Customer):
         
         def tran(self, amount, tacc):
               print(f"Amount Rs.{amount} is transferd to {tacc}")
-              super().baldec(amount)
-              super().balance()
+              balance = self._bal - amount
+              super().set_balance()
+              print(f"balance: {super().get_balance()} ")
 class Withdraw(Customer):
         def __init__(self, name, address, age, bal, accno):
             super().__init__(name, address, age, bal, accno)
         def wd(self, amount):
               print(f"Amount Rs.{amount} is Debit")
-              super().baldec(amount)
-              super().balance()
+              super().set_balance(-amount)
+              print(f"balance: {super().get_balance()} ")
 class Deposit(Customer):
         def __init__(self, name, address, age, bal, accno):
             super().__init__(name, address, age, bal, accno)
         def dep(self, amount):
               print(f"Amount Rs.{amount} is Credit")
-              super().balinc(amount)
-              super().balance()
+              super().set_balance(amount)
+              print(f"balance: {super().get_balance()} ")
       
 def main():
        while(True):
@@ -88,7 +89,7 @@ def main():
                                 case 3:
                                     bank.info()#give bank details
                                 case 4:
-                                    user.balance()#show account balance
+                                    user.check_balance()
                                 case 5:
                                     amount = int(input("Enter amount: "))   
                                     deposit.dep(amount)#decrease money  from balance
